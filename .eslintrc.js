@@ -74,6 +74,7 @@ module.exports = {
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
         'jsx-a11y/no-static-element-interactions': ['off'],
         'comma-dangle': ['off'],
-        '@typescript-eslint/no-var-requires': 0
+        '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/interface-name-prefix': ['off']
     }
 };

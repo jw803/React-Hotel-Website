@@ -24,8 +24,8 @@ backgroundStyle {
   @extend backgroundStyle;
   content: '';
   position: absolute;
-  top: -16;
-  left: -16;
+  top: -16px;
+  left: -16px;
   width: 148px;
   height: 16px;
 }
@@ -34,8 +34,8 @@ backgroundStyle {
   @extend backgroundStyle;
   content: '';
   position: absolute;
-  top: 0;
-  left: -16;
+  top: 0px;
+  left: -16px;
   width: 16px;
   height: 132px;
 }

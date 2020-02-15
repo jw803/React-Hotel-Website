@@ -1,0 +1,49 @@
+backgroundStyle {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.28) 45%, #fff 0, #fff 50%, rgba(255, 255, 255, 0.28) 0, rgba(255, 255, 255, 0.28) 95%, #fff 0);
+    background-size:5px 5px; 
+}
+
+.roomListBlock {
+    position: relative;
+    background-color: #FFF;
+    width: 300px;
+}
+
+.roomList::after {
+    @extend backgroundStyle;
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 280px;
+    height: 20px;
+}
+
+.removeLinkStyle {
+    color: #000;
+    text-decoration: none;
+}
+
+.listBlock {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+.hoverBorder {
+    height: 0.1px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.active {
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.list {
+    font-size: 14px;
+    letter-spacing: 1.46px;
+}
